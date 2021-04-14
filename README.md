@@ -20,8 +20,8 @@ The I part binds together the AR and MA parts.
 
 If we want to find value of P and Q for ARIMA model, we need to take **ACF** (*Auto Correlation Function*) and **PACF** (*Partial Auto Correlation Function*) plots. 
 We need to check, for which value in x-axis, graph line drops to 0 in y-axis for the first time.
-* From PACF(at y=0), get P.
-* From ACF(at y=0), get Q.
+* From PACF (at y=0), get P.
+* From ACF (at y=0), get Q.
 
 An **ADF** test (*Augmented Dickey–Fuller*) tests the null hypothesis that a unit root is present in a time series sample. The alternative hypothesis is different depending on which version of the test is used, but is usually stationarity or trend-stationarity. It is an augmented version of the Dickey–Fuller test for a larger and more complicated set of time series models. The augmented Dickey–Fuller statistic, used in the test, is a negative number. The more negative it is, the stronger the rejection of the hypothesis that there is a unit root at some level of confidence.
 
